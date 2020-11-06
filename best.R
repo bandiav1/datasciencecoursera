@@ -3,6 +3,8 @@ Outcome[,11] = as.numeric(Outcome[, 11])
 Outcome[,17] = as.numeric(Outcome[, 17])
 Outcome[,23] = as.numeric(Outcome[, 23])
 
+#adding comments
+
 best = function(state, outcome) {
   if(! state %in% Outcome$State) stop('invalid state')
   
